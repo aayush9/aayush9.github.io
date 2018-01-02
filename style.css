@@ -173,7 +173,7 @@ li a:hover:not(.active){
 	height:5rem;
 }
 .hitext{
-	font-size: 26px;
+	font-size: 24px;
 	line-height: 31px;
 	padding-right: 10%;
 	padding-left: 10%;
@@ -276,7 +276,7 @@ li a:hover:not(.active){
 	color: white;
 	width:100%;
 	font-size: 58px;
-	margin-top: 0px;
+	margin-top: 10px;
 	padding-top: 20px;
 	text-align: center;
 }
@@ -301,23 +301,26 @@ li a:hover:not(.active){
 .box{
 	width:48em;
 	margin:0 auto;
+	padding:20px auto;
 }
 .box p{
 	display: block;
 	position: absolute;
-	margin-top: 200px;
+	padding: 24px;
 	width:48rem;
 	text-align: center;
 	background-color: white;
 	margin:200px auto;
-	font-size: 28px;
-	box-shadow: 5px 5px 5px #000;
+	font-size: 24px;
+	box-shadow: 2px 20px 20px #000;
 }
 @media screen and (max-width: 49.2em) and (min-width: 40.21em){
 .box{
 	width:100%;
 }
 .box p{
+	font-size: 22px;
+	padding: 2px;
 	width:100%;
 }
 }
@@ -382,6 +385,7 @@ li a:hover:not(.active){
 	background-color: #222;
 	width:100%;
 	margin-top: -10px;
+	margin-bottom: -10px;
 	min-height:400px;
 }
 .feedback p{
@@ -445,11 +449,10 @@ footer{
 	width: 100%;
 }
 footer > p {
-	font-family: Open Sans;
 	display: block;
-	margin-top: 8px;
-	position:absolute;
-	font-size: 24px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: lighter;
 	width:100%;
 	color:white;
 	text-align: center;
@@ -817,7 +820,7 @@ footer > p {
 	margin-left: auto;
 	width:10in;
 	margin-top:-50px;
-	padding-bottom: 2px;
+	padding-bottom: 0px;
 	background-color: #c0392b;
 	text-align: center;
 	box-shadow: 2px 2px 5px;
@@ -825,7 +828,8 @@ footer > p {
 .contactme p{
 	text-align: center;
 	color:white;
-	font-size: 26px;
+	padding:16px;
+	font-size: 24px;
 }
 @media screen and (max-width: 61.2em){
 	.contactme{
