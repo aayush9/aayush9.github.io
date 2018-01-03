@@ -11,9 +11,9 @@ function init() {
 	for(i=0;i<10;++i){
 		x.push(Math.random()*context.canvas.width);
 		y.push(Math.random()*context.canvas.height);
-		dx.push((Math.random()-0.5)*2.0);
-		dy.push((Math.random()-0.5)*2.0);
-		siz.push((Math.random()+1.3)*25.0)
+		dx.push((Math.random()-0.5)*1.8);
+		dy.push((Math.random()-0.5)*1.8);
+		siz.push((Math.random()+1.25)*28.0)
 	}
 	setInterval(draw,5);
 }
@@ -21,7 +21,7 @@ function init() {
 function draw() {
 	context.canvas.width = window.innerWidth;
 	context.clearRect(0,0,context.canvas.width,350);
-	context.globalAlpha=0.8;
+	context.globalAlpha=0.82;
 	for(i=0;i<10;++i){
 		context.beginPath();
 		context.fillStyle=colors[i];

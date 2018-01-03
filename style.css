@@ -284,7 +284,6 @@ li a:hover:not(.active){
 	.more{
 	font-size: 42px;
 	margin-top: 10px;
-	padding-top: 20px;
 }
 	.core img{
 		padding-top: 180px;
@@ -299,9 +298,9 @@ li a:hover:not(.active){
 	}
 }
 .box{
-	width:48em;
+	display: flex;
+	width:48rem;
 	margin:0 auto;
-	padding:20px auto;
 }
 .box p{
 	display: block;
@@ -310,17 +309,22 @@ li a:hover:not(.active){
 	width:48rem;
 	text-align: center;
 	background-color: white;
-	margin:200px auto;
+	margin:180px auto;
+	margin-left: -24px;
 	font-size: 24px;
 	box-shadow: 2px 20px 20px #000;
 }
-@media screen and (max-width: 49.2em) and (min-width: 40.21em){
+@media screen and (max-width: 48.6em) and (min-width: 40.21em){
 .box{
 	width:100%;
 }
 .box p{
+	margin:200px auto;
+	margin-left: 0px;
 	font-size: 22px;
-	padding: 2px;
+	padding: 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	width:100%;
 }
 }
@@ -341,7 +345,7 @@ li a:hover:not(.active){
 	}
 	.box p{
 		width: 100%;
-		font-size: 23px;
+		font-size: 21px;
 	}
 	.core img{
 		padding-top: 50px;
@@ -367,7 +371,7 @@ li a:hover:not(.active){
 	}
 	.box p{
 		width: 100%;
-		font-size: 25px;
+		font-size: 21px;
 	}
 	.feedback{padding-top:120px;}
 }
@@ -821,7 +825,7 @@ footer > p {
 	width:10in;
 	margin-top:-50px;
 	padding-bottom: 0px;
-	background-color: #c0392b;
+	background-color: #7f8c8d;
 	text-align: center;
 	box-shadow: 2px 2px 5px;
 }
@@ -829,7 +833,7 @@ footer > p {
 	text-align: center;
 	color:white;
 	padding:16px;
-	font-size: 24px;
+	font-size: 22px;
 }
 @media screen and (max-width: 61.2em){
 	.contactme{
