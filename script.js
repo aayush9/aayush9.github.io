@@ -7,7 +7,7 @@ var dx=[];
 var dy=[];
 function init() {
 	context = document.getElementById('header_canvas').getContext('2d');
-	context.canvas.width = window.innerWidth*0.95;
+	context.canvas.width = window.innerWidth;
 	for(i=0;i<10;++i){
 		x.push(Math.random()*context.canvas.width);
 		y.push(Math.random()*context.canvas.height);
