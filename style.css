@@ -305,6 +305,7 @@ li a:hover:not(.active){
 	display: flex;
 	width:48rem;
 	margin:0 auto;
+	overflow:hidden;
 }
 .box p{
 	display: block;
